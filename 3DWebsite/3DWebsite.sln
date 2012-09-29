@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{C4B290FD-82C1-BCBB-6C53-BADBC1FC0AFF}") = "3DWebsite", "Assembly-CSharp-firstpass.csproj", "{91B9C512-4B8C-FCCD-3DC6-22E6EC4B9FBD}"
+EndProject
+Project("{C4B290FD-82C1-BCBB-6C53-BADBC1FC0AFF}") = "3DWebsite", "Assembly-UnityScript-firstpass.unityproj", "{0FD4A75F-CE38-0E87-7416-694C222EB24F}"
+EndProject
+Project("{C4B290FD-82C1-BCBB-6C53-BADBC1FC0AFF}") = "3DWebsite", "Assembly-UnityScript.unityproj", "{C6FD985D-7D6D-D62A-2800-081251F1D4F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91B9C512-4B8C-FCCD-3DC6-22E6EC4B9FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B9C512-4B8C-FCCD-3DC6-22E6EC4B9FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B9C512-4B8C-FCCD-3DC6-22E6EC4B9FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B9C512-4B8C-FCCD-3DC6-22E6EC4B9FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD4A75F-CE38-0E87-7416-694C222EB24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD4A75F-CE38-0E87-7416-694C222EB24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD4A75F-CE38-0E87-7416-694C222EB24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD4A75F-CE38-0E87-7416-694C222EB24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6FD985D-7D6D-D62A-2800-081251F1D4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6FD985D-7D6D-D62A-2800-081251F1D4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6FD985D-7D6D-D62A-2800-081251F1D4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6FD985D-7D6D-D62A-2800-081251F1D4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal
