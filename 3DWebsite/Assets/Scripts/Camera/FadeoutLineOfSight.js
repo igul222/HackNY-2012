@@ -122,8 +122,8 @@ function LateUpdate () {
 				if (fade.renderer)
 					fade.renderer.sharedMaterials = fade.originalMaterials;
 					
-				for (var newMaterial in fade.alphaMaterials)
-					Destroy(newMaterial);
+				for (var newMaterial1 in fade.alphaMaterials)
+					Destroy(newMaterial1);
 				
 				fadedOutObjects.RemoveAt(i);
 				i--;

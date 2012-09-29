@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Camera/FadeoutLineOfSight.js">
     <Files>
-      <File FileName="Assets\Scripts\Player\ThirdPersonController.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" Line="4" Column="33" />
+      <File FileName="Assets/Scripts/Camera/FadeoutLineOfSight.js" Line="126" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
