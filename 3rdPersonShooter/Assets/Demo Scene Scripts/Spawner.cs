@@ -98,6 +98,7 @@ public class Spawner : MonoBehaviour
 	//Wave controls
 	public int totalWaves = 5;
 	private int numWaves = 0;
+	private DeathManager deathManager;
 	//----------------------------------
 	// End of Different Spawn states and ways of doing them
 	//----------------------------------
@@ -109,6 +110,7 @@ public class Spawner : MonoBehaviour
 		Enemies.Add(EnemyLevels.Boss, BossEnemy);
 		Enemies.Add(EnemyLevels.Medium, MediumEnemy);
 		Enemies.Add(EnemyLevels.Hard, HardEnemy);
+		deathManager = GameObject.Find("Controller").GetComponent<DeathManager>();
 	}
 	// Draws a cube to show where the spawn point is... Useful if you don't have a object that show the spawn point
 	void OnDrawGizmos()
@@ -217,6 +219,7 @@ public class Spawner : MonoBehaviour
 		// Increase the total number of enemies spawned and the number of spawned enemies
 		numEnemy++;
 		spawnedEnemy++;
+		deathManager.entities.Add(Enemy.GetComponent<HealthController>());
 	}
 	// Call this function from the enemy when it "dies" to remove an enemy count
 	public void killEnemy(int sID)

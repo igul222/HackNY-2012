@@ -1,14 +1,15 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class DeathManager : MonoBehaviour {
 	
-	public HealthController[] entities;
+	public List<HealthController> entities;
 	public ProgressBar[] progressBars;
 	
 	// Update is called once per frame
 	void Update () {
-		for (int i=0; i<entities.Length; i++) {
+		for (int i=0; i<entities.Count; i++) {
 			HealthController hc = entities[i];
 			if (hc == null)
 				continue;

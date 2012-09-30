@@ -18,7 +18,7 @@ public class HealthController : MonoBehaviour {
 	public float healingSpeed = 2;
 	public GameObject hitParticles;
 	public AudioClip hitSound;
-	[HideInInspector]
+	//[HideInInspector]
 	public float health;
 	
 	public float normalizedHealth { get { return health / maxHealth; } }

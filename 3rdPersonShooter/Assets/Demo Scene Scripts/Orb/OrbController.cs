@@ -52,6 +52,7 @@ public class OrbController : MonoBehaviour
 		
 		//muzzleFlash.enabled = false;
 		muzzleFlash.gameObject.SetActiveRecursively(false);
+		player = GameObject.Find("Human");
 		
 		gunAudioSource = audio;
 	}
