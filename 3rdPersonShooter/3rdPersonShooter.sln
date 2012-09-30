@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{C3C7046C-50D9-7117-7E6C-8DE4B0E798F4}") = "3rdPersonShooter", "Assembly-CSharp.csproj", "{2747DA14-38B8-5092-1C66-52BCAD2225A0}"
+EndProject
+Project("{C3C7046C-50D9-7117-7E6C-8DE4B0E798F4}") = "3rdPersonShooter", "Assembly-CSharp-Editor.csproj", "{47F2119E-338E-6BE3-94A6-AD9A1C4DEF55}"
+EndProject
+Project("{C3C7046C-50D9-7117-7E6C-8DE4B0E798F4}") = "3rdPersonShooter", "Assembly-UnityScript.unityproj", "{5BA0684C-0E4F-BBE6-D54A-B199DEF04567}"
+EndProject
+Project("{C3C7046C-50D9-7117-7E6C-8DE4B0E798F4}") = "3rdPersonShooter", "Assembly-UnityScript-Editor.unityproj", "{F52C0B61-D289-1DF1-2000-CA5D51384E05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2747DA14-38B8-5092-1C66-52BCAD2225A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2747DA14-38B8-5092-1C66-52BCAD2225A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2747DA14-38B8-5092-1C66-52BCAD2225A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2747DA14-38B8-5092-1C66-52BCAD2225A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F2119E-338E-6BE3-94A6-AD9A1C4DEF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F2119E-338E-6BE3-94A6-AD9A1C4DEF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F2119E-338E-6BE3-94A6-AD9A1C4DEF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F2119E-338E-6BE3-94A6-AD9A1C4DEF55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA0684C-0E4F-BBE6-D54A-B199DEF04567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA0684C-0E4F-BBE6-D54A-B199DEF04567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA0684C-0E4F-BBE6-D54A-B199DEF04567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA0684C-0E4F-BBE6-D54A-B199DEF04567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52C0B61-D289-1DF1-2000-CA5D51384E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52C0B61-D289-1DF1-2000-CA5D51384E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52C0B61-D289-1DF1-2000-CA5D51384E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52C0B61-D289-1DF1-2000-CA5D51384E05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal

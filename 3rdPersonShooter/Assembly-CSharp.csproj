@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{2747DA14-38B8-5092-1C66-52BCAD2225A0}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_4_2;UNITY_3_4;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_OSX;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Character Controller Scripts\AccelerationCharacterController.cs" />
+     <Compile Include="Assets\Character Controller Scripts\AimLookCharacterController.cs" />
+     <Compile Include="Assets\Character Controller Scripts\CharacterMotor.cs" />
+     <Compile Include="Assets\Character Controller Scripts\FPSCharacterController.cs" />
+     <Compile Include="Assets\Character Controller Scripts\Follower.cs" />
+     <Compile Include="Assets\Character Controller Scripts\JumpAndIdle.cs" />
+     <Compile Include="Assets\Character Controller Scripts\MouseLookCharacterController.cs" />
+     <Compile Include="Assets\Character Controller Scripts\NormalCharacterMotor.cs" />
+     <Compile Include="Assets\Character Controller Scripts\PhysicsCharacterMotor.cs" />
+     <Compile Include="Assets\Character Controller Scripts\PlatformCharacterController.cs" />
+     <Compile Include="Assets\Character Controller Scripts\WanderingAICharacterController.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\AnimationDebugOutput.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\CharacterShadow.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\CharacterShadowHelper.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\DeathManager.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\DetachChildrenAndDestroy.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\ExecutionOrderController.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\FollowTransform.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\HealthController.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\MenuController.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\Orb\Frenzy.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\Orb\OrbController.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\Player\ArmIK.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\Player\GunAimer.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\Player\HeadLookController.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\Player\ImpactController.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\Player\RagdollInstantiator.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\Player\SoundEffectController.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\Player\SpeechController.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\Player\WeaponStateController.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\ProgressBar.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\ShooterGameCamera.cs" />
+     <Compile Include="Assets\Frameworks\Detonator\System\Detonator.cs" />
+     <Compile Include="Assets\Frameworks\Detonator\System\DetonatorBurstEmitter.cs" />
+     <Compile Include="Assets\Frameworks\Detonator\System\DetonatorCloudRing.cs" />
+     <Compile Include="Assets\Frameworks\Detonator\System\DetonatorFireball.cs" />
+     <Compile Include="Assets\Frameworks\Detonator\System\DetonatorForce.cs" />
+     <Compile Include="Assets\Frameworks\Detonator\System\DetonatorGlow.cs" />
+     <Compile Include="Assets\Frameworks\Detonator\System\DetonatorHeatwave.cs" />
+     <Compile Include="Assets\Frameworks\Detonator\System\DetonatorLight.cs" />
+     <Compile Include="Assets\Frameworks\Detonator\System\DetonatorShockwave.cs" />
+     <Compile Include="Assets\Frameworks\Detonator\System\DetonatorSmoke.cs" />
+     <Compile Include="Assets\Frameworks\Detonator\System\DetonatorSound.cs" />
+     <Compile Include="Assets\Frameworks\Detonator\System\DetonatorSparks.cs" />
+     <Compile Include="Assets\Frameworks\Detonator\System\DetonatorSpray.cs" />
+     <Compile Include="Assets\Frameworks\Locomotion System\AlignmentTracker.cs" />
+     <Compile Include="Assets\Frameworks\Locomotion System\GhostOriginal.cs" />
+     <Compile Include="Assets\Frameworks\Locomotion System\IK1JointAnalytic.cs" />
+     <Compile Include="Assets\Frameworks\Locomotion System\IKSimple.cs" />
+     <Compile Include="Assets\Frameworks\Locomotion System\IKSolver.cs" />
+     <Compile Include="Assets\Frameworks\Locomotion System\IMotionAnalyzer.cs" />
+     <Compile Include="Assets\Frameworks\Locomotion System\Interpolator.cs" />
+     <Compile Include="Assets\Frameworks\Locomotion System\LegAnimator.cs" />
+     <Compile Include="Assets\Frameworks\Locomotion System\LegController.cs" />
+     <Compile Include="Assets\Frameworks\Locomotion System\MotionAnalyzer.cs" />
+     <Compile Include="Assets\Frameworks\Locomotion System\MotionAnalyzerBackwards.cs" />
+     <Compile Include="Assets\Frameworks\Locomotion System\PolarGradientBandInterpolator.cs" />
+     <Compile Include="Assets\Frameworks\Locomotion System\TrajectoryVisualizer.cs" />
+     <Compile Include="Assets\Frameworks\Locomotion System\Util.cs" />
+     <Compile Include="Assets\Shaders\BumpLightMap.cs" />
+     <None Include="Assets\Shaders\ProgressBar.shader" />
+     <None Include="Assets\Shaders\FadedAddSmooth.shader" />
+     <None Include="Assets\Frameworks\Detonator\Resources\Detonator\Textures\HeatDistort.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	
