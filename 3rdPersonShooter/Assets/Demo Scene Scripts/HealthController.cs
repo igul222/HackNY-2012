@@ -30,6 +30,8 @@ public class HealthController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (Input.GetButton("Death"))
+			health = 0;
 		if (Time.deltaTime == 0 || Time.timeScale == 0)
 			return;
 		

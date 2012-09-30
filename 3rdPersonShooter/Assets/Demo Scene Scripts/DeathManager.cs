@@ -6,6 +6,7 @@ public class DeathManager : MonoBehaviour {
 	
 	public List<HealthController> entities;
 	public ProgressBar[] progressBars;
+	private int counter = 0;
 	
 	// Update is called once per frame
 	void Update () {
@@ -20,6 +21,8 @@ public class DeathManager : MonoBehaviour {
 				if (hc.tag == "Player")
 					StartCoroutine(PrepareRestart(false));
 				else {
+					counter++;
+					Debug.Log(counter);
 					//StartCoroutine(PrepareRestart(true));
 				}
 			}
