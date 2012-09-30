@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Character Controller Scripts\MouseLookCharacterController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Models/Level/Skybox/SkyboxMaterial.js">
     <Files>
-      <File FileName="Assets\Character Controller Scripts\MouseLookCharacterController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Character Controller Scripts\AimLookCharacterController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Models/Level/Skybox/SkyboxMaterial.js" Line="16" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

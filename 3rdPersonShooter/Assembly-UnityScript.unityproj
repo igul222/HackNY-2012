@@ -37,15 +37,16 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Frameworks\Detonator\Sample Supporting Emitters\Detonator Spray Helper.js" />
      <Compile Include="Assets\Frameworks\Detonator\TestScene\DetonatorTest.js" />
+     <Compile Include="Assets\Models\Level\Skybox\SkyboxMaterial.js" />
      <Compile Include="Assets\Models\Level\bloodGusher.js" />
      <Compile Include="Assets\ThirdPersonController.js" />
      <None Include="Assets\Shaders\ProgressBar.shader" />
