@@ -244,7 +244,7 @@ public class OrbController : MonoBehaviour
 		gunAudioSource.PlayOneShot(fireSound);
 		
 		Vector3 shootDir = turret.up;
-		shootDir += Random.insideUnitSphere * 0.01f;
+		shootDir += Random.insideUnitSphere * 0.1f;
 		Ray ray = new Ray(turret.position, shootDir);
 		RaycastHit hit;
 		if (Physics.Raycast(ray, out hit, 1000, mask)) {

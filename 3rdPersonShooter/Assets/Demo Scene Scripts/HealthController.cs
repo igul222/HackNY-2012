@@ -13,7 +13,7 @@ public class RayAndHit {
 public class HealthController : MonoBehaviour {
 	
 	public GameObject deathHandler;
-	public float maxHealth = 100;
+	public float maxHealth = 200;
 	public float hitDamage = 3;
 	public float healingSpeed = 2;
 	public GameObject hitParticles;
