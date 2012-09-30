@@ -40,8 +40,8 @@ public class Frenzy : MonoBehaviour {
 		// First make the orb rotate wildly in air for 1.5 seconds
 		// Then make it fall to the ground and continue rotating wildly
 		// Make it explode after 5 seconds
-		float fallAfterSeconds = 1.5f;
-		float explodeAfterSeconds = 5.0f;
+		float fallAfterSeconds = .5f;
+		float explodeAfterSeconds = 2.0f;
 		float rotateSpeed = 2000f;
 		float axisChange = 20f;
 		
