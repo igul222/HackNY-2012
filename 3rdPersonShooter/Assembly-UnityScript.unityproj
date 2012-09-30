@@ -53,6 +53,10 @@
      <None Include="Assets\Shaders\FadedAddSmooth.shader" />
      <None Include="Assets\Frameworks\Detonator\Resources\Detonator\Textures\HeatDistort.shader" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{F434DDFF-932F-2064-60EA-8C95BCC974C7}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 	   Other similar extension points exist, see Microsoft.Common.targets.

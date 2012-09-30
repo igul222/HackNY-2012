@@ -51,6 +51,8 @@
      <None Include="Assets\Frameworks\Detonator\Resources\Detonator\Textures\HeatDistort.shader" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{F434DDFF-932F-2064-60EA-8C95BCC974C7}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{2747DA14-38B8-5092-1C66-52BCAD2225A0}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">
