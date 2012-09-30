@@ -44,10 +44,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Character Controller Scripts\ThirdPersonController.js" />
      <Compile Include="Assets\Frameworks\Detonator\Sample Supporting Emitters\Detonator Spray Helper.js" />
      <Compile Include="Assets\Frameworks\Detonator\TestScene\DetonatorTest.js" />
      <Compile Include="Assets\Models\Level\bloodGusher.js" />
+     <Compile Include="Assets\ThirdPersonController.js" />
      <None Include="Assets\Shaders\ProgressBar.shader" />
      <None Include="Assets\Shaders\FadedAddSmooth.shader" />
      <None Include="Assets\Frameworks\Detonator\Resources\Detonator\Textures\HeatDistort.shader" />
