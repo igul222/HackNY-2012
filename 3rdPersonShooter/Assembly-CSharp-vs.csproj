@@ -76,6 +76,7 @@
      <Compile Include="Assets\Demo Scene Scripts\Player\WeaponStateController.cs" />
      <Compile Include="Assets\Demo Scene Scripts\ProgressBar.cs" />
      <Compile Include="Assets\Demo Scene Scripts\ShooterGameCamera.cs" />
+     <Compile Include="Assets\Demo Scene Scripts\Spawner.cs" />
      <Compile Include="Assets\Frameworks\Detonator\System\Detonator.cs" />
      <Compile Include="Assets\Frameworks\Detonator\System\DetonatorBurstEmitter.cs" />
      <Compile Include="Assets\Frameworks\Detonator\System\DetonatorCloudRing.cs" />

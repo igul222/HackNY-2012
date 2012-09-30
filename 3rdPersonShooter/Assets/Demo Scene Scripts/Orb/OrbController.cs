@@ -46,6 +46,7 @@ public class OrbController : MonoBehaviour
 		
 		flyTarget = transform.position;
 		oldFlyTarget = flyTarget;
+		
 		animation["FightSequence"].layer = -1;
 		animation.Play("FightSequence");
 		
